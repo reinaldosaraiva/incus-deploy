@@ -11,6 +11,7 @@ Install [OpenTofu](https://opentofu.org/docs/intro/install/).
 Install the required ceph packages for ansible on the controller, on Debian that's the `ceph-base` and `ceph-common` packages:
 ```
 apt install --no-install-recommends ceph-base ceph-common
+pip install -r requirements.txt
 ```
 
 ### Create the test VMs with OpenTofu
